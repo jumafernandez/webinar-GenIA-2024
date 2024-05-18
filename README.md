@@ -12,3 +12,5 @@ A su vez, se comparte el video del Webinar (para acceder se debe hacer click en 
     <img src="imgs/img-prev-video-webinar.jpg" alt="Imagen previa de YouTube" width="50%">
   </a>
 </p>
+
+Por último, se incorpora la presentación que guió la disertación: [Enlace a la Presentación](https://docs.google.com/presentation/d/18_RQFECCihGLmPrIurvsUEASGXzE8u4vv0DjqSF5nko/edit?usp=sharing).
