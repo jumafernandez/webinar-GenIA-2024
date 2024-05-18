@@ -3,9 +3,9 @@ import time
 
 inicio = time.time()  # Marcar el tiempo de inicio
 
-llm = Ollama(model="llama3")
+llm = Ollama(model="llama2", temperature=0)
 
-pregunta = '¿Quién es Lionel Messi?'
+pregunta = '¿Quién es Juan Manuel Fernández de la UNLu?'
 
 respuesta = llm.invoke(pregunta)
 

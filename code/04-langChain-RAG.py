@@ -49,11 +49,14 @@ def cargar_archivos_locales(folder):
         
         print(f'PDF {filename} procesado y almacenado en el vectorstore.')
     
-    print('\nProceso de load de documentos finalizado.')
+    print(f'\nProceso de load de documentos finalizado: {hora_actual()}.')
     
     return retriever
 
-FOLDER_PATH = 'C:/Users/jumaf/OneDrive/Documentos/Documentacion Municipio de Luján/'
+# Sin datos de Juan Manuel Fernández
+FOLDER_PATH = 'C:/Users/jumaf/Documents/GitHub/webinar-genIA-2024/data/vacio/'
+# Con datos de Juan Manuel Fernández
+FOLDER_PATH = 'C:/Users/jumaf/Documents/GitHub/webinar-genIA-2024/data/'
 
 archivos_locales = cargar_archivos_locales(FOLDER_PATH)
 
